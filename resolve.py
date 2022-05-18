@@ -11,7 +11,7 @@ lines = file.readlines()
 for index, line in enumerate(lines):
     print(line.strip())
     data = socket.gethostbyname(line.strip())
-    print((data), file=open("address.txt", "a"))
+    print((data), file=open("address.html", "a"))
     file.close()
 
 file.close()
