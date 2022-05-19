@@ -4,7 +4,7 @@ from urllib import parse
 import socket
 import sys
 import os
-#Open text file with a list of urls read the lines and assign a variable
+#Open text file with a list of FQDNs read the lines and assign a variable
 file = open('dns.txt', 'r')
 lines = file.readlines()
 
